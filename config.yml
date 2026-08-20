@@ -1,0 +1,103 @@
+baseURL: "https://longxiangsun.github.io/"
+title: "Longxiang Sun"
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 20
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: About Longxiang
+      url: about/
+      weight: 1
+    - name: Research
+      url: research/
+      weight: 2
+    - name: Publications
+      url: publications/
+      weight: 3
+    - name: Sharing
+      url: sharing/
+      weight: 4
+    - name: Contact
+      url: contact/
+      weight: 5
+
+params:
+  description: "Personal academic website of Longxiang Sun."
+  author: "Longxiang Sun"
+  DateFormat: "January 2006"
+
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: ["research", "publications"]
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+
+  profileMode:
+    enabled: true
+    title: "Longxiang Sun"
+    subtitle: "PhD Candidate at the School of Geodesy and Geomatics, Wuhan University. My research focuses on crustal deformation, interseismic fault coupling, GNSS, InSAR, and earthquake hazard."
+    imageUrl: "/picture.jpeg"
+    imageWidth: 150
+    imageHeight: 210
+    buttons:
+      - name: ORCID
+        url: https://orcid.org/0009-0002-6730-3981
+      - name: GitHub
+        url: https://github.com/LongxiangSun
+      - name: ResearchGate
+        url: https://www.researchgate.net/profile/Longxiang-Sun
+
+  socialIcons:
+    - name: Email
+      url: mailto:lxsundays@whu.edu.cn
+    - name: Google Scholar
+      url: https://orcid.org/my-orcid?orcid=0009-0002-6730-3981/
+    - name: GitHub
+      url: https://github.com/longxiangsun
+
+  assets:
+    disableScrollBarStyle: true
+
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+
+  label:
+    text: "Longxiang Sun"
+    icon: favicon.ico
+    iconHeight: 18
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  highlight:
+    guessSyntax: true
+    style: autumn
+
+  tableOfContents:
+    endLevel: 2
+    ordered: false
