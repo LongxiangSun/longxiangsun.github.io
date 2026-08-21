@@ -1,10 +1,8 @@
 # Research
 
-I am interested in crustal deformation, active faults, and earthquake processes, especially how faults accumulate and release strain over the earthquake cycle. My research focuses on interseismic deformation and fault coupling, with the goal of understanding how faults move, lock, creep, and eventually contribute to earthquake generation.
+I study crustal deformation, active faults, and earthquake processes, focusing on how faults accumulate and release strain over the earthquake cycle.
 
-I mainly work with Global Navigation Satellite System (GNSS) and Interferometric Synthetic Aperture Radar (InSAR) observations, together with geophysical modeling. In simple terms, I use satellites, ground-based observations, and a fair amount of coding to turn tiny movements of the Earth's surface into something we can hopefully understand.
-
-My research has mainly focused on the **San Andreas Fault system** in California and the **Xianshuihe Fault** on the eastern margin of the Tibetan Plateau. I am particularly interested in fault slip rates, interseismic coupling, strain accumulation, and their implications for earthquake hazard.
+I mainly use GNSS, InSAR, and geophysical modeling to investigate fault slip rates, interseismic coupling, and strain accumulation. My work focuses on the San Andreas Fault system in California and the Xianshuihe Fault on the eastern Tibetan Plateau, with an interest in understanding earthquake generation and hazard.
 
 ## Current Research
 
@@ -12,7 +10,7 @@ My research has mainly focused on the **San Andreas Fault system** in California
 
 <figure class="research-figure">
 
-<img src="/images/san-andreas-coupling.png" alt="Interseismic fault coupling along the San Andreas Fault System">
+<img src="/images/san-andreas-coupling.png" alt="Interseismic fault coupling distribution">
 
 <figcaption>
 Interseismic fault coupling along the San Andreas Fault System derived from joint GNSS and InSAR inversion.

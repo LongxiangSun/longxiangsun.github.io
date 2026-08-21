@@ -13,21 +13,24 @@ taxonomies:
 
 menu:
   main:
-    - name: About Longxiang
-      url: about/
+    - name: Home
+      url: /
       weight: 1
+    - name: About
+      url: about/
+      weight: 2
     - name: Research
       url: research/
-      weight: 2
+      weight: 3
     - name: Publications
       url: publications/
-      weight: 3
+      weight: 4
     - name: Sharing
       url: sharing/
-      weight: 4
+      weight: 5
     - name: Contact
       url: contact/
-      weight: 5
+      weight: 6
 
 params:
   description: "Personal academic website of Longxiang Sun."
@@ -57,17 +60,15 @@ params:
   profileMode:
     enabled: true
     title: "Longxiang Sun"
-    subtitle: "PhD Candidate at the School of Geodesy and Geomatics, Wuhan University. My research focuses on crustal deformation, interseismic fault coupling, GNSS, InSAR, and earthquake hazard."
+    subtitle: "PhD candidate at Wuhan University, studying tectonic geodesy, Bayesian inversion, and fault earthquake-cycle modeling — trying to understand how faults move, lock, and eventually break."
     imageUrl: "/picture.jpeg"
-    imageWidth: 150
-    imageHeight: 210
+    imageWidth: 180
+    imageHeight: 172
     buttons:
-      - name: ORCID
-        url: https://orcid.org/0009-0002-6730-3981
-      - name: GitHub
-        url: https://github.com/LongxiangSun
-      - name: ResearchGate
-        url: https://www.researchgate.net/profile/Longxiang-Sun
+     # - name: ORCID
+     #   url: https://orcid.org/0009-0002-6730-3981
+     # - name: ResearchGate
+     #   url: https://www.researchgate.net/profile/Longxiang-Sun
 
   socialIcons:
     - name: Email
@@ -85,7 +86,7 @@ params:
     hiddenInSingle: true
 
   label:
-    text: "Longxiang Sun"
+    text: " "
     icon: favicon.ico
     iconHeight: 18
 
