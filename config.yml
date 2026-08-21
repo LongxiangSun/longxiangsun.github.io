@@ -76,6 +76,10 @@ params:
       url: https://github.com/longxiangsun
 
   assets:
+    favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"
+    favicon32x32: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
     disableScrollBarStyle: true
 
   cover:
