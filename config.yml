@@ -84,7 +84,7 @@ params:
 
   label:
     text: "Home"
-    icon: favicon.ico
+    icon: favicon.png
     iconHeight: 18
 
 markup:
